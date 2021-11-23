@@ -320,18 +320,8 @@ namespace MCD_MetotOrnegi
             Console.WriteLine("2 - Kazandibi");
             Console.WriteLine("3 - Tavuk Göğsü");
         }
-        static void hesapIslemleri()
-        {
-            int etYemegi = 30;
-            int mantı = 25;
-            int tavuk = 20;
-            int ayran = 5;
-            int kola = 7;
-            int limonata = 8;
-            int sutlac = 10;
-            int kazanDibi = 12;
-            int tavukGogsu = 12;
+        
            
-        }
+        
     }
 }
