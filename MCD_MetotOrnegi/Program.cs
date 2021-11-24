@@ -46,8 +46,7 @@ namespace MCD_MetotOrnegi
         static void menü()
         {
             Console.WriteLine("***MENÜ*** \n1)Yiyecekler \n2)İçecekler \n3)Tatlılar");
-            Console.WriteLine("Bir seçim yapınız.");
-            Console.Write("Seçim yapınız :");
+            Console.WriteLine("Bir seçim yapınız.");            
             int mSecim = Convert.ToInt32(Console.ReadLine());
             switch (mSecim)
             {
