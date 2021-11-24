@@ -58,20 +58,20 @@ namespace MCD_MetotOrnegi
                         {
                             Console.WriteLine("Sütlacınız hazırlanıyor.");
                             fiyat += 10;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
 
                         }
                         else if (tSecim==2)
                         {
                             Console.WriteLine("Kazandibiniz hazırlanıyor.");
                             fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                         else if (tSecim==3)
                         {
                             Console.WriteLine("Tavuk Göğsünüz hazırlanıyor");
                             fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                     }
                     else if (iSecim1==2)
@@ -84,19 +84,19 @@ namespace MCD_MetotOrnegi
                         {
                             Console.WriteLine("Sütlacınız hazırlanıyor.");
                             fiyat += 10;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                         else if (tSecim == 2)
                         {
                             Console.WriteLine("Kazandibiniz hazırlanıyor.");
                             fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                         else if (tSecim == 3)
                         {
                             Console.WriteLine("Tavuk Göğsünüz hazırlanıyor");
                             fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                     }
                     else if (iSecim1==3)
@@ -109,19 +109,19 @@ namespace MCD_MetotOrnegi
                         {
                             Console.WriteLine("Sütlacınız hazırlanıyor.");
                             fiyat += 10;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                         else if (tSecim == 2)
                         {
                             Console.WriteLine("Kazandibiniz hazırlanıyor.");
                             fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                         else if (tSecim == 3)
                         {
                             Console.WriteLine("Tavuk Göğsünüz hazırlanıyor");
                             fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                     }
                 }
@@ -141,19 +141,19 @@ namespace MCD_MetotOrnegi
                         {
                             Console.WriteLine("Sütlacınız hazırlanıyor.");
                             fiyat += 10;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                         else if (tSecim == 2)
                         {
                             Console.WriteLine("Kazandibiniz hazırlanıyor.");
                             fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                         else if (tSecim == 3)
                         {
                             Console.WriteLine("Tavuk Göğsünüz hazırlanıyor");
                             fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                     }
                     else if (iSecim1 == 2)
@@ -166,19 +166,19 @@ namespace MCD_MetotOrnegi
                         {
                             Console.WriteLine("Sütlacınız hazırlanıyor.");
                             fiyat += 10;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                         else if (tSecim == 2)
                         {
                             Console.WriteLine("Kazandibiniz hazırlanıyor.");
                             fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                         else if (tSecim == 3)
                         {
                             Console.WriteLine("Tavuk Göğsünüz hazırlanıyor");
                             fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                     }
                     else if (iSecim1 == 3)
@@ -191,19 +191,19 @@ namespace MCD_MetotOrnegi
                         {
                             Console.WriteLine("Sütlacınız hazırlanıyor.");
                             fiyat += 10;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                         else if (tSecim == 2)
                         {
                             Console.WriteLine("Kazandibiniz hazırlanıyor.");
                             fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                         else if (tSecim == 3)
                         {
                             Console.WriteLine("Tavuk Göğsünüz hazırlanıyor");
                             fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                     }
                 }
@@ -223,19 +223,19 @@ namespace MCD_MetotOrnegi
                         {
                             Console.WriteLine("Sütlacınız hazırlanıyor.");
                             fiyat += 10;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                         else if (tSecim == 2)
                         {
                             Console.WriteLine("Kazandibiniz hazırlanıyor.");
                             fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                         else if (tSecim == 3)
                         {
                             Console.WriteLine("Tavuk Göğsünüz hazırlanıyor");
                             fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                     }
                     else if (iSecim1 == 2)
@@ -248,19 +248,19 @@ namespace MCD_MetotOrnegi
                         {
                             Console.WriteLine("Sütlacınız hazırlanıyor.");
                             fiyat += 10;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                         else if (tSecim == 2)
                         {
                             Console.WriteLine("Kazandibiniz hazırlanıyor.");
                             fiyat += 12; 
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                         else if (tSecim == 3)
                         {
                             Console.WriteLine("Tavuk Göğsünüz hazırlanıyor");
                             fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                     }
                     else if (iSecim1 == 3)
@@ -273,19 +273,19 @@ namespace MCD_MetotOrnegi
                         {
                             Console.WriteLine("Sütlacınız hazırlanıyor.");
                             fiyat += 10;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                         else if (tSecim == 2)
                         {
                             Console.WriteLine("Kazandibiniz hazırlanıyor.");
                             fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " +fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " +fiyat + " TL");
                         }
                         else if (tSecim == 3)
                         {
                             Console.WriteLine("Tavuk Göğsünüz hazırlanıyor");
                             fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat);
+                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
                         }
                     }
                 }
