@@ -35,268 +35,32 @@ namespace MCD_MetotOrnegi
             //Console.WriteLine("2 - Kazandibi");
             //Console.WriteLine("3 - Tavuk Göğsü");
             #endregion
-           
+
             menü();
-            int secim = Convert.ToInt32(Console.ReadLine());
-            if (secim==1)
-            {
-                yiyecek();
-                int ySecim = Convert.ToInt32(Console.ReadLine());
-                if (ySecim==1)
-                {
-                    Console.WriteLine("Et yemeğiniz hazırlanıyor");
-                    fiyat += 30;
-                    icecek();
-                    int iSecim1 = Convert.ToInt32(Console.ReadLine());
-                    if (iSecim1==1)
-                    {
-                        Console.WriteLine("Ayranınız hazır");
-                        fiyat += 5;
-                        tatlilar();
-                        int tSecim = Convert.ToInt32(Console.ReadLine());
-                        if (tSecim==1)
-                        {
-                            Console.WriteLine("Sütlacınız hazırlanıyor.");
-                            fiyat += 10;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-
-                        }
-                        else if (tSecim==2)
-                        {
-                            Console.WriteLine("Kazandibiniz hazırlanıyor.");
-                            fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                        else if (tSecim==3)
-                        {
-                            Console.WriteLine("Tavuk Göğsünüz hazırlanıyor");
-                            fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                    }
-                    else if (iSecim1==2)
-                    {
-                        Console.WriteLine("Kolanız hazır.");
-                        fiyat += 7;
-                        tatlilar();
-                        int tSecim = Convert.ToInt32(Console.ReadLine());
-                        if (tSecim == 1)
-                        {
-                            Console.WriteLine("Sütlacınız hazırlanıyor.");
-                            fiyat += 10;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                        else if (tSecim == 2)
-                        {
-                            Console.WriteLine("Kazandibiniz hazırlanıyor.");
-                            fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                        else if (tSecim == 3)
-                        {
-                            Console.WriteLine("Tavuk Göğsünüz hazırlanıyor");
-                            fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                    }
-                    else if (iSecim1==3)
-                    {
-                        Console.WriteLine("Limonatanız hazır.");
-                        fiyat += 8;
-                        tatlilar();
-                        int tSecim = Convert.ToInt32(Console.ReadLine());
-                        if (tSecim == 1)
-                        {
-                            Console.WriteLine("Sütlacınız hazırlanıyor.");
-                            fiyat += 10;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                        else if (tSecim == 2)
-                        {
-                            Console.WriteLine("Kazandibiniz hazırlanıyor.");
-                            fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                        else if (tSecim == 3)
-                        {
-                            Console.WriteLine("Tavuk Göğsünüz hazırlanıyor");
-                            fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                    }
-                }
-                else if (ySecim==2)
-                {
-                    Console.WriteLine("Mantınız hazırlanıyor.");
-                    fiyat += 20;
-                    icecek();
-                    int iSecim1 = Convert.ToInt32(Console.ReadLine());
-                    if (iSecim1 == 1)
-                    {
-                        Console.WriteLine("Ayranınız hazır");
-                        fiyat += 5;
-                        tatlilar();
-                        int tSecim = Convert.ToInt32(Console.ReadLine());
-                        if (tSecim == 1)
-                        {
-                            Console.WriteLine("Sütlacınız hazırlanıyor.");
-                            fiyat += 10;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                        else if (tSecim == 2)
-                        {
-                            Console.WriteLine("Kazandibiniz hazırlanıyor.");
-                            fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                        else if (tSecim == 3)
-                        {
-                            Console.WriteLine("Tavuk Göğsünüz hazırlanıyor");
-                            fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                    }
-                    else if (iSecim1 == 2)
-                    {
-                        Console.WriteLine("Kolanız hazır.");
-                        fiyat += 7;
-                        tatlilar();
-                        int tSecim = Convert.ToInt32(Console.ReadLine());
-                        if (tSecim == 1)
-                        {
-                            Console.WriteLine("Sütlacınız hazırlanıyor.");
-                            fiyat += 10;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                        else if (tSecim == 2)
-                        {
-                            Console.WriteLine("Kazandibiniz hazırlanıyor.");
-                            fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                        else if (tSecim == 3)
-                        {
-                            Console.WriteLine("Tavuk Göğsünüz hazırlanıyor");
-                            fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                    }
-                    else if (iSecim1 == 3)
-                    {
-                        Console.WriteLine("Limonatanız hazır.");
-                        fiyat += 7;
-                        tatlilar();
-                        int tSecim = Convert.ToInt32(Console.ReadLine());
-                        if (tSecim == 1)
-                        {
-                            Console.WriteLine("Sütlacınız hazırlanıyor.");
-                            fiyat += 10;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                        else if (tSecim == 2)
-                        {
-                            Console.WriteLine("Kazandibiniz hazırlanıyor.");
-                            fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                        else if (tSecim == 3)
-                        {
-                            Console.WriteLine("Tavuk Göğsünüz hazırlanıyor");
-                            fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                    }
-                }
-                else if (ySecim==3)
-                {
-                    Console.WriteLine("Tavuk yemeğiniz hazırlanıyor.");
-                    fiyat += 25;
-                    icecek();
-                    int iSecim1 = Convert.ToInt32(Console.ReadLine());
-                    if (iSecim1 == 1)
-                    {
-                        Console.WriteLine("Ayranınız hazır");
-                        fiyat += 5;
-                        tatlilar();
-                        int tSecim = Convert.ToInt32(Console.ReadLine());
-                        if (tSecim == 1)
-                        {
-                            Console.WriteLine("Sütlacınız hazırlanıyor.");
-                            fiyat += 10;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                        else if (tSecim == 2)
-                        {
-                            Console.WriteLine("Kazandibiniz hazırlanıyor.");
-                            fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                        else if (tSecim == 3)
-                        {
-                            Console.WriteLine("Tavuk Göğsünüz hazırlanıyor");
-                            fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                    }
-                    else if (iSecim1 == 2)
-                    {
-                        Console.WriteLine("Kolanız hazır.");
-                        fiyat += 7;
-                        tatlilar();
-                        int tSecim = Convert.ToInt32(Console.ReadLine());
-                        if (tSecim == 1)
-                        {
-                            Console.WriteLine("Sütlacınız hazırlanıyor.");
-                            fiyat += 10;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                        else if (tSecim == 2)
-                        {
-                            Console.WriteLine("Kazandibiniz hazırlanıyor.");
-                            fiyat += 12; 
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                        else if (tSecim == 3)
-                        {
-                            Console.WriteLine("Tavuk Göğsünüz hazırlanıyor");
-                            fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                    }
-                    else if (iSecim1 == 3)
-                    {
-                        Console.WriteLine("Limonatanız hazır.");
-                        fiyat += 8;
-                        tatlilar();
-                        int tSecim = Convert.ToInt32(Console.ReadLine());
-                        if (tSecim == 1)
-                        {
-                            Console.WriteLine("Sütlacınız hazırlanıyor.");
-                            fiyat += 10;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                        else if (tSecim == 2)
-                        {
-                            Console.WriteLine("Kazandibiniz hazırlanıyor.");
-                            fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " +fiyat + " TL");
-                        }
-                        else if (tSecim == 3)
-                        {
-                            Console.WriteLine("Tavuk Göğsünüz hazırlanıyor");
-                            fiyat += 12;
-                            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
-                        }
-                    }
-                }
-            }
+            yiyecek();
+            icecek();
+            tatlilar();
+            Console.WriteLine("Sipariş tutarınız: " + fiyat + " TL");
             Console.ReadLine();
-
         }
         static void menü()
         {
             Console.WriteLine("***MENÜ*** \n1)Yiyecekler \n2)İçecekler \n3)Tatlılar");
             Console.WriteLine("Bir seçim yapınız.");
+            Console.Write("Seçim yapınız :");
+            int mSecim = Convert.ToInt32(Console.ReadLine());
+            switch (mSecim)
+            {
+                case 1:
+                    Console.WriteLine("Yemek listesi geliyor..");
+                    break;
+                case 2:
+                    Console.WriteLine("İçecek listesi geliyor...");
+                    break;
+                case 3:
+                    Console.WriteLine("Tatlı listesi geliyor...");
+                    break;
+            }
         }
         static void yiyecek()
         {
@@ -304,6 +68,23 @@ namespace MCD_MetotOrnegi
             Console.WriteLine("1 - Et yemeği");
             Console.WriteLine("2 - Mantı");
             Console.WriteLine("3 - Tavuk");
+            Console.Write("Seçim yapınız :");
+            int ySecim = Convert.ToInt32(Console.ReadLine());
+            if (ySecim == 1)
+            {
+                Console.WriteLine("Et yemeğiniz hazırlanıyor");
+                fiyat += 30;
+            }
+            else if (ySecim == 2)
+            {
+                Console.WriteLine("Mantınız hazırlanıyor.");
+                fiyat += 20;
+            }
+            else if (ySecim == 3)
+            {
+                Console.WriteLine("Tavuk yemeğiniz hazırlanıyor.");
+                fiyat += 25;
+            }
         }
         static void icecek()
         {
@@ -312,6 +93,23 @@ namespace MCD_MetotOrnegi
             Console.WriteLine("1 - Ayran");
             Console.WriteLine("2 - Kola");
             Console.WriteLine("3 - Limonata");
+            Console.Write("Seçim yapınız :");
+            int iSecim = Convert.ToInt32(Console.ReadLine());
+            if (iSecim == 1)
+            {
+                Console.WriteLine("Ayranınız hazır");
+                fiyat += 5;
+            }
+            else if (iSecim == 2)
+            {
+                Console.WriteLine("Kolanız hazır.");
+                fiyat += 7;
+            }
+            else if (iSecim == 3)
+            {
+                Console.WriteLine("Limonatanız hazır.");
+                fiyat += 8;
+            }
         }
         static void tatlilar()
         {
@@ -319,9 +117,27 @@ namespace MCD_MetotOrnegi
             Console.WriteLine("1 - Sütlaç");
             Console.WriteLine("2 - Kazandibi");
             Console.WriteLine("3 - Tavuk Göğsü");
+            Console.Write("Seçim yapınız :");
+            int tSecim = Convert.ToInt32(Console.ReadLine());
+            if (tSecim == 1)
+            {
+                Console.WriteLine("Sütlacınız hazır");
+                fiyat += 10;
+            }
+            else if (tSecim == 2)
+            {
+                Console.WriteLine("Kazandibiniz hazır.");
+                fiyat += 12;
+            }
+            else if (tSecim == 3)
+            {
+                Console.WriteLine("Tavuk Göğsünüz hazır.");
+                fiyat += 12;
+            }
+
+
+
+
         }
-        
-           
-        
     }
 }
